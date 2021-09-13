@@ -95,6 +95,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     padding: 10,
     margin: 10,
+    borderRadius: 7,
   },
   buttonText: {
     textAlign: 'center',
@@ -105,5 +106,9 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     marginLeft: 95,
+  },
+  phoenicButton: {
+    flexDirection: "row",
+    alignSelf: "center"
   }
 });
